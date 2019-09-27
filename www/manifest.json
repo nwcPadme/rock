@@ -1,0 +1,22 @@
+
+       
+
+
+
+ {
+          "name": "Mad Games Studio Lite",
+          "short_name": "Mad Games Studio",
+          "start_url": "index.html",
+          "display": "standalone",
+          "icons":[{"src": "data/images/header/logo.png"}],
+          "prefer_related_applications": true,
+          "related_applications": [
+            {
+              "platform": "play",
+              "id": "com.MadAgency.WebGames.App"
+            }
+          ],
+         "background_color": "#ffffff",
+         "theme_color": "#000000"
+        }
+                

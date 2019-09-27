@@ -1,0 +1,125 @@
+	<ion-view view-title=" dashboard" hide-nav-bar="true" >
+		<ion-nav-title> dashboard</ion-nav-title>
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-dashboard" class="dashboard page-dashboard">
+			<div class="slide-box-hero">
+		<ion-slides class="slide-box-hero-content" options="{slidesPerView:1,autoplay:10000,loop:1}" slider="data.slider">
+			<ion-slide-page>
+				<img ng-src="data/images/images/barner-1.jpg" class="" />
+			</ion-slide-page>
+			<ion-slide-page>
+				<img ng-src="data/images/images/barner-2.jpg" class="" />
+			</ion-slide-page>
+		</ion-slides>
+	</div>
+	<div style="width: 100%;height:200%;">
+		<ion-slide-box class="ion-slide-tabs" slide-tabs-scrollable="false" show-pager="false" ion-slide-tabs>
+			<ion-slide ion-slide-tab-label="Service" >
+					<ion-content scroll="false" class="slidingTabContent">
+						<div class="list">
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/faq" >
+								<i class="icon ion-ios-lightbulb" ></i>
+								<h2>MAD FAQ</h2>
+								<span class="item-note pull-left">It will be fun!</span>
+							</a>
+							<a class="item item-icon-left" ng-click="openURL('mailto:mailto:mad.games.maker@gmail.com')" >
+								<i class="icon ion-email" ></i>
+								<h2>Email Us</h2>
+								<span class="item-note pull-left">Your personal, dedicated enquiry portal</span>
+							</a>
+							<a class="item item-icon-left" ng-click="openURL('tel:+380931500626')" >
+								<i class="icon ion-android-call" ></i>
+								<h2>Call Us</h2>
+								<span class="item-note pull-left">Speak to a live agent for support</span>
+							</a>
+						</div>
+					</ion-content>
+			</ion-slide>
+			<ion-slide ion-slide-tab-label="Products" >
+					<ion-content scroll="false" class="slidingTabContent">
+						<div class="list">
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/market" >
+								<i class="icon ion-ios-cart" ></i>
+								<h2>Store</h2>
+								<span class="item-note pull-left">Grab your games now!</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/games" >
+								<i class="icon ion-cash" ></i>
+								<h2>Games examples</h2>
+								<span class="item-note pull-left">The latest our product information</span>
+							</a>
+							<a class="item item-icon-left" ng-click="openAppBrowser('http://domain.com/news')" >
+								<i class="icon ion-ios-paper" ></i>
+								<h2>News</h2>
+								<span class="item-note pull-left">The latest news</span>
+							</a>
+						</div>
+					</ion-content>
+			</ion-slide>
+			<ion-slide ion-slide-tab-label="Community" >
+					<ion-content scroll="false" class="slidingTabContent">
+						<div class="list">
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/gamix" >
+								<i class="icon ion-social-youtube" ></i>
+								<h2>Gamers social network</h2>
+								<span class="item-note pull-left">Social network</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/arcadia" >
+								<i class="icon ion-social-facebook" ></i>
+								<h2>Gaming world</h2>
+								<span class="item-note pull-left">Gaming world platform</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/ava" >
+								<i class="icon ion-social-twitter" ></i>
+								<h2>Gaming place</h2>
+								<span class="item-note pull-left">Gaming place</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/game_store" >
+								<i class="icon ion-social-android" ></i>
+								<h2>Mad Store</h2>
+								<span class="item-note pull-left">Your own play market!</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/cut" >
+								<i class="icon ion-ios-monitor" ></i>
+								<h2>Link shorter (earn money)</h2>
+								<span class="item-note pull-left">Short the link and ear money </span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/traff" >
+								<i class="icon ion-mouse" ></i>
+								<h2>Traffic exchanger</h2>
+								<span class="item-note pull-left">New powerfull traffic exchange system</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/files" >
+								<i class="icon ion-filing" ></i>
+								<h2>File storage</h2>
+								<span class="item-note pull-left">Free file storage platform</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/trade" >
+								<i class="icon ion-social-bitcoin" ></i>
+								<h2>Crypto-Trading platform</h2>
+								<span class="item-note pull-left">Strong and powerfull  trading platform</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/inst" >
+								<i class="icon ion-social-instagram" ></i>
+								<h2>Instagram autoposter</h2>
+								<span class="item-note pull-left">Instagram autoposter will help you</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/face" >
+								<i class="icon ion-social-facebook" ></i>
+								<h2>Facebook marketing</h2>
+								<span class="item-note pull-left">Facebook marketing tool for you</span>
+							</a>
+							<a class="item item-icon-left" ng-href="#/mad_games_studio/manag" >
+								<i class="icon ion-social-markdown" ></i>
+								<h2>Project Management tool</h2>
+								<span class="item-note pull-left">Use our management tool for free</span>
+							</a>
+						</div>
+					</ion-content>
+			</ion-slide>
+		</ion-slide-box>
+	</div>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

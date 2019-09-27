@@ -1,0 +1,180 @@
+{
+  "project_info": {
+    "project_number": "947161704642",
+    "firebase_url": "https://playroom-12efc.firebaseio.com",
+    "project_id": "playroom-12efc",
+    "storage_bucket": "playroom-12efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947161704642:android:93bf7d6a69412333d7b35b",
+        "android_client_info": {
+          "package_name": "com.MadAgency.WebGames.App"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-IB98n4DcMKytGTS0zWBi7iIY2F4NeCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947161704642:android:136af1be77e636d0",
+        "android_client_info": {
+          "package_name": "com.eqvola.playroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-IB98n4DcMKytGTS0zWBi7iIY2F4NeCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947161704642:android:3a7288514cffecb9d7b35b",
+        "android_client_info": {
+          "package_name": "com.madagency.schoolabc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947161704642-1chm0lpvtjjebmtsqd7cts97svank4hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madagency.schoolabc",
+            "certificate_hash": "3b9b5a5b7f23aaa34dadba89f69d6559ee311186"
+          }
+        },
+        {
+          "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-IB98n4DcMKytGTS0zWBi7iIY2F4NeCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947161704642:android:18021d61d3388283d7b35b",
+        "android_client_info": {
+          "package_name": "com.rideme.maddriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947161704642-rs8ecfm8rvdv2573b4oabst0gtl3q01t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rideme.maddriver",
+            "certificate_hash": "d7fd90d7ae95b182ed9ca837221b557b3572825d"
+          }
+        },
+        {
+          "client_id": "947161704642-hab9nrf6n01g94qck11g4fln0m1s1m3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rideme.maddriver",
+            "certificate_hash": "3b9b5a5b7f23aaa34dadba89f69d6559ee311186"
+          }
+        },
+        {
+          "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-IB98n4DcMKytGTS0zWBi7iIY2F4NeCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947161704642:android:3d81f4ce2e1b8b01d7b35b",
+        "android_client_info": {
+          "package_name": "com.schoolABC.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-IB98n4DcMKytGTS0zWBi7iIY2F4NeCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947161704642-7133ti0jfb7go3db438fo1s1dijoimhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

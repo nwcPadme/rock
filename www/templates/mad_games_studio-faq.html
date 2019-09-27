@@ -1,0 +1,21 @@
+	<ion-view view-title=" FAQs" hide-nav-bar="true" >
+		<ion-nav-title> FAQs</ion-nav-title>
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-faq" class=" page-faq">
+		<ion-list class="card list">
+	<div>
+		<ion-item class="item item-colorful noborder" ng-click="toggleGroup(0)" ng-class="{active: isGroupShown(0)}" ><i class="icon" ng-class="isGroupShown(0) ? 'ion-minus' : 'ion-plus'"></i> <span>question 0?</span></ion-item>
+		<ion-item class="item item-text-wrap" ng-show="isGroupShown(0)">your answer 0</ion-item>
+	</div>
+	<div>
+		<ion-item class="item item-colorful noborder" ng-click="toggleGroup(1)" ng-class="{active: isGroupShown(1)}" ><i class="icon" ng-class="isGroupShown(1) ? 'ion-minus' : 'ion-plus'"></i> <span>question 1?</span></ion-item>
+		<ion-item class="item item-text-wrap" ng-show="isGroupShown(1)">your answer 1</ion-item>
+	</div>
+	<div>
+		<ion-item class="item item-colorful noborder" ng-click="toggleGroup(2)" ng-class="{active: isGroupShown(2)}" ><i class="icon" ng-class="isGroupShown(2) ? 'ion-minus' : 'ion-plus'"></i> <span>question 2?</span></ion-item>
+		<ion-item class="item item-text-wrap" ng-show="isGroupShown(2)">your answer 2</ion-item>
+	</div>
+</ion-list>
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
